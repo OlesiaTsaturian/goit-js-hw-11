@@ -50,6 +50,7 @@ const onSearchFormSubmit = event => {
       console.log(err);
     })
     .finally(hideLoader);
+  refs.form.reset();
 };
 
 refs.form.addEventListener('submit', onSearchFormSubmit);
