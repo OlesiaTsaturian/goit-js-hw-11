@@ -67,6 +67,7 @@ button:focus {
 
 .loader {
   position: relative;
+  display: block;
   margin: 0 auto;
   width: 75px;
   height: 100px;
